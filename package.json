@@ -1,0 +1,30 @@
+{
+  "name": "iotastation",
+  "version": "1.0.0",
+  "description": "Electric charging station powered by IOTA technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Weideveld",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/curl-remote": "0.0.3",
+    "argparse": "^1.0.10",
+    "asap": "^2.0.6",
+    "es6-promise": "^4.2.4",
+    "http-proxy": "^1.16.2",
+    "iota.lib.js": "^0.4.2",
+    "modbus-serial": "^5.3.2",
+    "moment": "^2.20.1",
+    "node-int64": "^0.4.0",
+    "package.json": "^2.0.1",
+    "request": "^2.85.0",
+    "require": "^2.4.20",
+    "serialport": "^5.0.0",
+    "tunnel-ssh": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.20"
+  }
+}

@@ -1,0 +1,13 @@
+
+ff ff ff ff ff ff  /* Dest MAC: will be corrected by efsu */
+ee ee ee ee ee ee  /* Src MAC: will be corrected by efsu  */
+ab ba /* Ethertype */
+00    /* reserved */
+0b 03 /* HC_STOP_LISTEN_FOR_SLAC_ASSN.IND Type = 0x0b03 */
+00    /* reserved */
+
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00

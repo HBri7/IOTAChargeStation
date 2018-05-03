@@ -1,0 +1,13 @@
+
+ff ff ff ff ff ff  /* Dest MAC: will be corrected by efsu */
+ee ee ee ee ee ee  /* Src MAC: will be corrected by efsu  */
+ab ba /* Ethertype */
+00    /* reserved */
+0b 01 /* HC_LISTEN_FOR_SLAC_ASSN.IND 0x0b01 */
+/* AttenRxEVSE */
+03 02 02 07 04 07 08 04 03 05
+04 04 03 03 02 02 02 01 00 00
+00 00 01 01 01 00 02 02 02 03
+03 03 04 04 05 06 06 06 07 07
+08 0a 0b 0c 0c 0b 0c 0d 0c 11
+10 0e 10 10 10 11 14 24

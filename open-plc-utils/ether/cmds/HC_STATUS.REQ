@@ -1,0 +1,14 @@
+
+ff ff ff ff ff ff  /* Dest MAC: will be corrected by efsu */
+ee ee ee ee ee ee  /* Src MAC: will be corrected by efsu  */
+ab ba /* Ethertype */
+00    /* reserved */
+0b 0a /* HC_STATUS.REQ 0x0b0a */
+00    /* Req_DLinkStatus */
+/* AttenRxEVSE */
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 
+
